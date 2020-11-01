@@ -328,13 +328,13 @@
 .footer__column-heading {
   font-weight: bold;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .footer__column-links {
   flex-direction: column;
   font-weight: normal;
-  display:flex ;
+  display: flex;
 }
 
 .footer__colums_content-social {
