@@ -326,7 +326,7 @@
   padding-left: 0;
 }
 
-.footer__column_content-social ul li {
+.footer__column_content_social ul li {
   flex-direction: column;
   display: flex;
   line-height: 30px;
@@ -334,7 +334,7 @@
   list-style:none;
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   line-height: 30px;
   font-size: 18px;
 }
