@@ -1,0 +1,7 @@
+.footer__column_content_social ul li {
+  flex-direction: column;
+  display: flex;
+  line-height: 30px;
+  font-size: 18px;
+  list-style:none;
+}
