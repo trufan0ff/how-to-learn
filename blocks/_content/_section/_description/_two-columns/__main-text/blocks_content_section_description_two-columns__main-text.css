@@ -4,4 +4,6 @@
   line-height: 34px;
   font-size: 24px;
   margin: 0;
+  display: grid;
+  row-gap: 30px;
 }

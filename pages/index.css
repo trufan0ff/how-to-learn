@@ -5,7 +5,7 @@
 @import "../blocks/_content/_section/_description/_two-columns/__main-text/blocks_content_section_description_two-columns__main-text.css";
 @import "../blocks/_content/_section/_description/_two-columns/__paragraf/blocks_content_section_description_two-columns__paragraf.css";
 @import "../blocks/_content/_section/_description/_two-columns/__span-accent/blocks_content_section_description_two-columns__span-accent.css";
-@import "../blocks/_content/_section/_description/_digits/blocks_content_section_description_digits.css";
+@import "../blocks/_content/_section/_description/_digits/blocks_content_section_digits.css";
 @import "../blocks/_content/_section/_digits/_table/blocks_content_section_description_digits_table.css";
 @import "../blocks/_content/_section/_digits/_table/__cell/blocks_content_section_description_digits_table__cell.css";
 @import "../blocks/_content/_section/_digits/_table/__cell/_theme/blocks_content_section_description_digits_table__cell_theme_dark.css";
@@ -43,3 +43,14 @@
 @import "../blocks/_header/__title/blocks_header__title.css";
 @import "../blocks/_logo/_place/blocks_logo_place_footer.css";
 @import "../blocks/_logo/_place/blocks_logo_place_header.css";
+@import "../blocks/_content/_section/_techniques/blocks_content_section_techniques.css";
+@import "../blocks/_content/_section/_techniques/_cards/blocks_content_section_techniques_cards.css";
+@import "../blocks/_content/_section/_techniques/_cards/__item/blocks_content_section_techniques_cards__item.css";
+@import "../blocks/_content/_section/_techniques/_cards/__item/__image/blocks_content_section_techniques_cards__item__image.css";
+@import "../blocks/_content/_section/_techniques/_cards/__item/__title/blocks_content_section_techniques_cards__item__title.css";
+@import "../blocks/_content/_section/_techniques/_cards/__item/__description/blocks_content_section_techniques_cards__item__description.css";
+@import "../blocks/_content/_section/_video/blocks_content_section_video.css";
+@import "../blocks/_content/_section/_video/__iframes/blocks_content_section_video__iframes.css";
+@import "../blocks/_content/_section/_video/__iframe/blocks_content_section_video__frame.css";
+@import "../blocks/_content/_section/_oakley/blocks_content_section_oakley.css";
+@import "../blocks/_rotation/blocks_rotation.css";
