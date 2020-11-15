@@ -1,6 +1,6 @@
-title:How-to-learn
-subtitle:[Яндекс.Практикум](https://praktikum.yandex.ru)
-subtitle:Профессия Веб-разработчик
+# How-to-learn
+## [Яндекс.Практикум](https://praktikum.yandex.ru)
+## Профессия Веб-разработчик
 
 ___________________________
 
