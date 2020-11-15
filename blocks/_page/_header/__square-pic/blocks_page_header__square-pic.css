@@ -9,6 +9,6 @@
 
 }
 
-.header__square-pic {
+.header__square-pic:hover {
   animation: rotation 20s infinite;
 }
