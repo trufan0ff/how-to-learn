@@ -7,8 +7,5 @@
   right: -210px;
   z-index: 2;
   background-size: cover;
-}
-
-.kaufman__triangle {
   animation: rotation 20s linear;
 }
