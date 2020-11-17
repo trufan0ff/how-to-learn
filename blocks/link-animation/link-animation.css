@@ -3,6 +3,6 @@
   }
 
 .link-animation:hover {
-  transition: link-animation 5s linear forwards;
+  transition: link-animation 10s linear forwards;
   opacity: 0.5;
 }
