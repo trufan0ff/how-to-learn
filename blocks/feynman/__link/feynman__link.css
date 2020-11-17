@@ -1,0 +1,14 @@
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  z-index: 11;
+  text-align: center;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.feynman__link:hover {
+  animation: link-animation 1s ease-in-out infinite alternate;
+}
+

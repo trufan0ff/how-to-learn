@@ -1,0 +1,9 @@
+.feynman {
+  line-height: 51px;
+  font-size: 36px;
+  position: relative;
+  background-color: #f2f2f2;
+  z-index: 1;
+  min-height: 790px;
+  padding-top: 80px;
+}

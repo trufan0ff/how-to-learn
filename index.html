@@ -10,10 +10,10 @@
 
 <body>
   <div class="page">
-    <header class="header rotation">
-      <img src="./blocks/page/logo/_place/logo_place_header.svg" alt="Логотип" class="logo logo_place_header">
-      <img src="./blocks/page/header/__main-illustration/header-image.png" alt="Картина" class="header__main-illustration">
-      <div class="header__square-pic"></div>
+    <header class="header">
+      <img src="./blocks/logo/_place/logo_place_header.svg" alt="Логотип" class="logo logo_place_header">
+      <img src="./blocks/header/__main-illustration/header-image.png" alt="Картина" class="header__main-illustration">
+      <div class="header__square-pic rotation"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни? <a href="#" class="header__link link-animation">Узнать &rarr;</a></p>
@@ -42,31 +42,31 @@
 
         <div class= "cards">
           <div class= "cards__item">
-            <img src="./blocks/page/content/section/techniques/cards/__image/cards-attention.png" alt="Картинка 2 вида" class="cards__image">
+            <img src="./blocks/cards/__image/cards-attention.png" alt="Картинка 2 вида" class="cards__image">
             <h3 class= "cards__title">Два вида внимания</h3>
             <p class= "cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
 
           <div class= "cards__item">
-            <img src="./blocks/page/content/section/techniques/cards/__image/cards-recall.png" alt="Вспоминайте изученное" class="cards__image">
+            <img src="./blocks/cards/__image/cards-recall.png" alt="Вспоминайте изученное" class="cards__image">
             <h3 class= "cards__title">Recall</h3>
             <p class= "cards__description">Вспоминайте изученное - это позволит соеденить разрозненные порции памяти.</p>
           </div>
 
           <div class= "cards__item">
-            <img src="./blocks/page/content/section/techniques/cardsm/__image/cards-interliving.png" alt="Интерливинг" class="cards__image">
+            <img src="./blocks/cards/__image/cards-interliving.png" alt="Интерливинг" class="cards__image">
             <h3 class= "cards__title">Интерливинг</h3>
             <p class= "cards__description">Изучайте несколько навыков одновременно, они обогощают друг друга.</p>
           </div>
 
           <div class= "cards__item">
-            <img src="./blocks/page/content/section/techniques/cards/__image/cards-question.png" alt="Вопросы" class="cards__image">
+            <img src="./blocks/cards/__image/cards-question.png" alt="Вопросы" class="cards__image">
             <h3 class= "cards__title">Вопросы</h3>
             <p class= "cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
 
           <div class= "cards__item">
-            <img src="./blocks/page/content/section/techniques/cards/__image/cards-competence.png" alt="Иллюзия компетентности" class="cards__image">
+            <img src="./blocks/cards/__image/cards-competence.png" alt="Иллюзия компетентности" class="cards__image">
             <h3 class= "cards__title">Иллюзия компетентности</h3>
             <p class= "cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется,что вы владеете новойф темой.</p>
           </div>
@@ -79,8 +79,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class= "video__iframes">
-          <iframe class= "video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class= "video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class= "video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU" style="border:none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class= "video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY" style="border:none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -99,7 +99,7 @@
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a href="#" class="feynman__link link-animation">Подробнее &rarr;</a>
-        <img src="./blocks/page/content/section/feynman/__image/feynman.png" alt="Фейнмен" class="feynman__image">
+        <img src="./blocks/feynman/__image/feynman.png" alt="Фейнмен" class="feynman__image">
       </section>
 
       <section class="digits">
@@ -154,7 +154,7 @@
           <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <img src="./blocks/page/content/section/khan/__book-pic/khan-book.jpg" class="khan__book-pic" alt="Книга">
+            <img src="./blocks/khan/__book-pic/khan-book.jpg" class="khan__book-pic" alt="Книга">
             <a href="#" class="khan__buy-link link-animation">Купить книгу &rarr;</a>
           </div>
         </div>
@@ -214,10 +214,10 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
-          <img src="./blocks/page/content/section/resources/__logo/resources-arzamas.svg" class="resources__logo" alt="Логотип">
-          <img src="./blocks/page/content/section/resources/__logo/resources-n1.svg" class="resources__logo" alt="Логотип">
-          <img src="./blocks/page/content/section/resources/__logo/resources-strelka.svg" class="resources__logo" alt="Логотип">
-          <img src="./blocks/page/content/section/resources/__logo/resources-polka.svg" class="resources__logo" alt="Логотип">
+          <img href= "#" src="./blocks/resources/__logo/resources-arzamas.svg" class="resources__logo link-animation" alt="Логотип">
+          <img href= "#" src="./blocks/resources/__logo/resources-n1.svg" class="resources__logo link-animation" alt="Логотип">
+          <img href= "#" src="./blocks/resources/__logo/resources-strelka.svg" class="resources__logo link-animation" alt="Логотип">
+          <img href= "#" src="./blocks/resources/__logo/resources-polka.svg" class="resources__logo link-animation" alt="Логотип">
         </div>
       </section>
 
@@ -225,8 +225,8 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img src="./blocks/page/logo/_place/logo_place_footer.svg" alt="Логотип" class="logo logo_place_footer">
-          <a class="footer__author">&copy; Виктор Труфанов</a>
+          <img src="./blocks/logo/_place/logo_place_footer.svg" alt="Логотип" class="logo logo_place_footer">
+          <p class="footer__author">&copy; Виктор Труфанов</p>
         </div>
         <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
@@ -239,11 +239,11 @@
         <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
           <ul class="footer__column-links">
-            <li><a href="#" class="footer__link link-animation"><img src="./blocks/page/footer/__social-icon/facebook_color_white.svg" alt="Фейсбук"
+            <li><a href="#" class="footer__link link-animation"><img src="./blocks/footer/__social-icon/facebook_color_white.svg" alt="Фейсбук"
                   class="footer__social-icon">Facebook</a></li>
-            <li><a href="#" class="footer__link link-animation"><img src="./blocks/page/footer/__social-icon/vk_color_white.svg" alt="ВКонтакте"
+            <li><a href="#" class="footer__link link-animation"><img src="./blocks/footer/__social-icon/vk_color_white.svg" alt="ВКонтакте"
                   class="footer__social-icon">ВКонтакте</a></li>
-            <li><a href="#" class="footer__link link-animation"><img src="./blocks/page/footer/__social-icon/instagram_color_white.svg" alt="Инстаграм"
+            <li><a href="#" class="footer__link link-animation"><img src="./blocks/footer/__social-icon/instagram_color_white.svg" alt="Инстаграм"
                   class="footer__social-icon">instagram</a></li>
           </ul>
         </div>
