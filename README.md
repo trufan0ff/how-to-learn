@@ -1,5 +1,5 @@
 # How-to-learn
-## [Яндекс.Практикум](https://praktikum.yandex.ru)
+## [Посмотреть можно тут](https://trufan0ff.github.io/how-to-learn/)
 ## Профессия Веб-разработчик
 
 ___________________________
